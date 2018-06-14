@@ -1,0 +1,23 @@
+{
+  "name": "internetpixels/sodium-encryption",
+  "description": "Encrypt and decrypt data with this easy to use PHP encryption library",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Peter van Wilderen",
+      "email": "peter@vanwilderen.nl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "InternetPixels\\SodiumEncryption\\": "src",
+      "InternetPixels\\SodiumEncryption\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  }
+}

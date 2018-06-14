@@ -4,8 +4,15 @@ php:
     - 7.1
     - 7.2
 
+before_install:
+  - sudo add-apt-repository ppa:ondrej/php -y
+  - sudo apt-get update -q
+  - sudo apt-get install libsodium-dev -y
+
+before_script:
+  - pecl install libsodium
+
 install:
-  - ./.travis-install-libsodium.sh
   - composer self-update
   - composer install
 

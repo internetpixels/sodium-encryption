@@ -5,7 +5,7 @@ php:
     - 7.2
 
 install:
-  - ./travis-install-libsodium.sh
+  - ./.travis-install-libsodium.sh
   - composer self-update
   - composer install
 

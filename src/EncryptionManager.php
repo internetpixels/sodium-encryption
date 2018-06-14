@@ -75,7 +75,7 @@ class EncryptionManager
      */
     public static function generateNonce()
     {
-        $nonce = random_bytes(SODIUM_CRYPTO_SECRETBOX_NONCEBYTES);
+        $nonce = random_bytes(64);
 
         return \sodium_bin2hex($nonce);
     }

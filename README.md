@@ -8,6 +8,13 @@ This is a open-source library. Please consider a link to this repository when yo
 [![Build Status](https://travis-ci.org/internetpixels/sodium-encryption.svg)](https://travis-ci.org/internetpixels/csrf-protection)
 [![Maintainability](https://api.codeclimate.com/v1/badges/d0d817a21ca7243433b3/maintainability)](https://codeclimate.com/github/internetpixels/sodium-encryption)
 
+## Install with composer
+This small encryption/decryption library can be required by using composer. Please use the following command:
+
+```text
+composer require internetpixels/sodium-encryption
+```
+
 ### Setup the TokenManager
 You have to set the ``secret`` and ``pubic`` tokens once. Those keys are not allowed to change overtime! 
 ```php

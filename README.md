@@ -16,10 +16,10 @@ composer require internetpixels/sodium-encryption
 ```
 
 ### Setup the TokenManager
-You have to set the ``secret`` and ``pubic`` tokens once. Those keys are not allowed to change overtime! 
+You have to set the ``secret`` and ``public`` tokens once. Those keys are not allowed to change overtime! 
 ```php
 <?php
-// Update the keys to your own!
+// Update the keys (create a new unique keypair)!
 \InternetPixels\SodiumEncryption\EncryptionManager::setKeys(
     '1d17336ba7b2cec7dc8ec788e78ebf835d9f85cfc414275e92fd8e3ae5d6d2b6',
     'b88fc95850eec82492e9f0616cfeb69b9205735e34f5ce5e83d681eb38147d57'
